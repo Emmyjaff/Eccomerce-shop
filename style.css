@@ -1,0 +1,126 @@
+/* 
+    
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    background-color: #077099;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h1{
+    flex: 1;
+    cursor: pointer;
+}
+.cart{
+    width: 45px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart img{
+    width: 30px !important;
+/* 
+    margin-right: 20px;
+    filter: contrast(200%); */
+}
+.cart p{
+    color: #fff;
+    background-color: #3e3e3e;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.products {
+    width: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3e3e3e;
+    padding: 10px;
+    margin: 30px;
+    transition:all .4s ease;
+}
+.products:hover{
+    box-shadow: 2px 2px 2px 2px #303d42;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center  ;
+    font-size: 10px;
+}
+
+.image img{
+    width: 190px;
+    height: 200px;
+    object-fit: cover;
+}
+.add-to-cart p{
+    margin-right: 10px;
+}
+
+.add-to-cart {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4ebde9;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+button.add-to-cart:hover{
+    background-color: #fc320fd0;
+    box-shadow: 2px 2px 2px 2px #303d42;
+}
+
+.elseclass{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    margin: 8em 13em;
+}
